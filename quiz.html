@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="quiz.css" />
+    <title>Vicente y Santi Quiz</title>
+  </head>
+  <body>
+    <div class="loader"></div>
+    <div class="container">
+      <div class="quiz-head">
+        <h1 class="title">Welcome to my Quiz</h1>
+        <div class="score flex">
+          <span id="current-question"></span> /
+          <span id="total-question"></span>
+        </div>
+      </div>
+      <div class="quiz-body">
+        <h2 id="question" class="quiz-question"></h2>
+        <ul class="quiz-options"></ul>
+        <div id="result"></div>
+      </div>
+      <div class="quiz-foot" id="foot">
+        <button type="button" id="check-answer">Check</button>
+        <button type="button" id="play-again">Play Again</button>
+        <button type="button" id="show-score">Show Score</button>
+      </div>
+      <div class="end hide">
+        <img src="/assets/trophy.gif" alt="Winner" />
+        <div class="final-points"></div>
+        <div class="gif"></div>
+        <button type="button" id="restart">Restart</button>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="quiz.js"></script>
+  </body>
+</html>
