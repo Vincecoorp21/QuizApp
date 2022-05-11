@@ -103,7 +103,7 @@ function congrats() {
 To deploy this project you must clone the repository through the following link:
 
 ```
-https://github.com/Santiremix/QuizApp
+https://github.com/Vincecoorp21/QuizApp
 ```
 
 #### Preview
